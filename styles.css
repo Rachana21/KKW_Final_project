@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  text-align: center;
+  background-color: #FFF5EE;
+}
+
+h1{
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 55px;
+}
+
+header
+{
+  color: #8aafeb;
+
+}
+.about{
+  color: black;
+  margin-left: 30px;
+  text-align:left;
+}
+.content
+{
+  /* margin: 10px;
+  padding: 2%;
+  display: flex; */
+  /* justify-content: space-around; */
+  /* flex-wrap: wrap; */
+  background-color: white;
+  margin: 40px;
+  padding: 15px;
+}
+.item
+{
+  margin: 10px;
+  padding: 7%;
+
+}
+
+img{
+  height: 250px;
+  display:inline;
+}
