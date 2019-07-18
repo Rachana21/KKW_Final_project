@@ -5,24 +5,119 @@
     <meta charset="utf-8">
     <title>My Website</title>
 <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1>GC^2</h1>
     </header>
 
+
+<!-- beginning of dropbar -->
+<div class="entire-button">
+    <style>
+    body {
+     font-family:<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    }
+
+    .navbar {
+     overflow: hidden;
+     background-color: #333;
+    }
+
+    .navbar a {
+     float: left;
+     font-size: 16px;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+    }
+
+    .Opportunities {
+     float: left;
+     overflow: hidden;
+    }
+
+    .Opportunities .dropbtn {
+     font-size: 16px;
+     border: none;
+     outline: none;
+     color: white;
+     padding: 14px 16px;
+     background-color: inherit;
+     font-family: inherit;
+     margin: 0;
+    }
+
+    .navbar a:hover, .Opportunities:hover .dropbtn {
+     background-color:  #8aafeb;
+     text-align: center;
+    }
+
+    .Opportunities-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+    }
+
+     .Opportunities-content a {
+     float: none;
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: center;
+    }
+
+    .Opportunities-content a:hover {
+     background-color: #ddd;
+    }
+
+    .Opportunities:hover .Opportunities-content {
+     display: block;
+    }
+    </style>
+    </head>
+    <body>
+
+    <div class="navbar">
+
+       <div class="Opportunities">
+         <button class="dropbtn">Opportunities
+         <i class="fa fa-caret-down"></i>
+        </button>
+         <div class="Opportunities-content">
+           <a href="STEM.html">STEM</a>
+           <a href="cs.html">Computer Science</a>
+           <a href="Politics.html">Politics</a>
+           <a href="leadership.html">Leadership</a>
+           <a href="volunteer.html">Volunteer</a>
+          </div>
+     </div>
+    </div>
+</div>
+<!-- end of dropbar -->
+
+
+
+
     <div class="content">
-      <img class="pic" src="https://code-art.com/wp-content/uploads/2017/07/Make-a-Gift-3.jpg" alt="pic1">
-      <img class="pic1" src="https://technical.ly/philly/wp-content/uploads/sites/2/2019/03/girlswhocode.jpg" alt="pic2">
+      <img class="pic" src="https://www.abc.net.au/radionational/image/2970582-3x2-460x307.jpg" alt="pic1">
+      <img class="pic" src="https://technical.ly/philly/wp-content/uploads/sites/2/2019/03/girlswhocode.jpg" alt="pic2">
 
     </div>
-    <h3 class = "about">About Us</h3>
-    <p class = "about">Welcome to GC^2!</p>
-    <p class = "about">Our mission is to provide girls an easy outlet to discover new
-      opportunities centered around empowering females. Click on the
-       "Opportunities" page to begin exploring programs!
+    <div class= "about-content">
+      <h3 class = "about">About Us</h3>
+      <p class = "about">Welcome to GC^2!</p>
+      <p class = "about">Our mission is to provide girls an easy outlet to discover new
+        opportunities centered around empowering females. Click on the
+         "Opportunities" page to begin exploring programs!
     </p>
+  </div>
 
   </body>
 </html>
